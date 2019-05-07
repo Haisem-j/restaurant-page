@@ -1,0 +1,43 @@
+#OurStory{
+
+margin-top: 100px;
+padding-bottom: 50px;
+  
+    .quote{
+        font-size: 1.2rem;
+        color: $paragraphColor;
+        margin-bottom: 3rem;
+        strong{
+            color: $black;
+            
+            font-weight: 700;
+        }
+    }
+
+    .reserve-btn{
+        font-family: $displayFont;
+        display: inline-block;
+        padding: 20px 40px;
+        border: 1px solid $black;
+        text-align: center;
+        text-decoration: none;
+        color: $black;
+        text-transform: uppercase;
+        transition: all .5s ease-in-out;
+        &:hover{
+            background: $red;
+            color: #fff;
+        }
+    }
+
+    .video-img{
+        max-width: 400px;
+        height: 600px;
+        background: linear-gradient(135deg,rgba(0,0,0,.03) 0,#002d77 100%);
+        background-image: linear-gradient(135deg, rgba(0,0,0, 0.03) 0px, #000 100%),url("https://www.rd.com/wp-content/uploads/2018/04/10-Cooking-Tricks-That-Are-Only-Taught-in-Culinary-Schools-3-760x506.jpg");
+        background-position: center;
+        // background-position: left;
+        background-size: cover;
+        margin: 0 auto;
+    }
+}

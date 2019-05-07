@@ -1,0 +1,24 @@
+header{
+    position: absolute;
+    width: 100%;
+    color: #fff;
+    padding: 20px;
+    z-index: 20;
+    .logo{
+        display: inline-block;
+
+    }
+
+    nav{
+        display: inline-block;
+        float: right;
+        text-align: right;
+
+        a{
+            display: inline-block;
+            color: #fff;
+            text-decoration: none;
+            padding: 0 10px;
+        }
+    }
+}

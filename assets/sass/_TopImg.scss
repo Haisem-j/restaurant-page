@@ -1,0 +1,60 @@
+#TopImg{
+    position: relative;
+    min-height: 500px;
+    height: 100vh;
+    background: black;
+    background: linear-gradient(135deg,rgba(0,0,0,.2) 0,#002d77 100%);
+    background-image: linear-gradient(135deg, rgba(0,0,0, 0.2) 0px, #000 100%),url("https://www.thespruceeats.com/thmb/IeodpABvTL2ySEoG6ANJ10Te4GQ=/960x0/filters:no_upscale():max_bytes(150000):strip_icc()/closed-oven-prime-rib-roast-method-995286-11_preview-5b041f9fa474be0037c063ba.jpeg");
+    background-position: center;
+    background-size: cover;
+
+
+    .title{
+        padding: 200px 0 80px;
+        text-align: right;
+
+        h1{
+            font-family: $displayFont;
+            text-transform: uppercase;
+            color: #fff;
+            font-weight: 300;
+            font-size: 4rem;
+        }
+        h2{
+        }
+        h5{
+            text-transform: uppercase;
+            color: #fff;
+            font-weight: 300;
+        }
+    }
+    .contact-info{
+        text-align: right;
+        color: #fff;
+        font-size: .8rem;
+        line-height: 1.5rem;
+        color: $paragraphColor;
+        width: 100%;
+        position: absolute;
+        bottom: 50px;
+        right: 0;
+        strong{
+            font-weight: bold;
+            color: white;
+        }
+
+        .booking{
+            margin-bottom: 10px;
+            color: $paragraphColor;
+        }
+
+        h2{
+            font-size: 2rem;
+            margin-bottom: 20px;
+            color: white;
+
+        }
+    }
+
+}
+
